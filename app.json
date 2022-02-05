@@ -23,6 +23,10 @@
       "value": "",
       "required": false
     },
+    "APP_PORT": {
+      "value": "",
+      "required": false
+    },
     "USE_LOCAL_SERVER": {
       "value": "no",
       "required": false
