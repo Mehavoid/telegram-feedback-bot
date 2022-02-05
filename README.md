@@ -36,3 +36,7 @@
 
 Переменная `ADMIN_CHAT_ID` должна быть числом, равным идентификатору либо лички с админом, либо группы 
 (желательно, <u>супер</u>группы), все участники которой будут считаться равноправными администраторами бота.
+
+## Развертывание на [heroku](https://heroku.com)
+
+[![Развернуть на Heroku](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Mehavoid/telegram-feedback-bot/tree/add-xyinoku)
