@@ -1,0 +1,18 @@
+{
+  "name": "groosha/telegram-feedback-bot",
+  "description": "Telegram bot for feedback without database",
+  "keywords": ["telegram", "bot", "feedback"],
+  "repository": "https://github.com/Mehavoid/telegram-feedback-bot",
+  "env": {
+    "BOT_TOKEN": "",
+    "ADMIN_CHAT_ID": "",
+    "REMOVE_SENT_CONFIRMATION": "",
+    "WEBHOOK_ENABLED": "",
+    "WEBHOOK_DOMAIN": "",
+    "WEBHOOK_PATH": "",
+    "APP_HOST": "",
+    "APP_PORT": "",
+    "USE_LOCAL_SERVER": "no",
+    "LOCAL_SERVER_ADDR": "mybotapi.local"
+  }
+}
