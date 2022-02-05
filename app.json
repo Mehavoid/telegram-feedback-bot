@@ -11,24 +11,10 @@
     "BOT_TOKEN": "",
     "ADMIN_CHAT_ID": "",
     "WEBHOOK_DOMAIN": "",
-    "WEBHOOK_ENABLED": {
-      "value": "yes",
-      "required": false
-    },
-    "WEBHOOK_PATH": {
-      "value": "/",
-      "required": false
-    },
-    "USE_LOCAL_SERVER": {
-      "value": "no",
-      "required": false
-    },
+    "WEBHOOK_ENABLED": "yes",
+    "WEBHOOK_PATH": "/",
     "REMOVE_SENT_CONFIRMATION": {
       "value": "yes",
-      "required": false
-    },
-    "LOCAL_SERVER_ADDR": {
-      "value": "mybotapi.local",
       "required": false
     }
   }
