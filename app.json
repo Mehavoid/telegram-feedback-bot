@@ -8,15 +8,30 @@
   ],
   "repository": "https://github.com/Mehavoid/telegram-feedback-bot",
   "env": {
-    "BOT_TOKEN": "",
-    "ADMIN_CHAT_ID": "",
-    "WEBHOOK_DOMAIN": "",
-    "WEBHOOK_ENABLED": "yes",
-    "WEBHOOK_PATH": "/",
+    "BOT_TOKEN": {
+      "description": "Токен бота, можно получить у https://t.me/botfather",
+      "value": ""
+    },
+    "ADMIN_CHAT_ID": {
+      "description": "Идентификатор чата или группы, куда будут приходить сообщения",
+      "value": ""
+    },
+    "WEBHOOK_DOMAIN": {
+      "description": "<Имя приложения>.herokuapp.com",
+      "value": ""
+    },
+    "WEBHOOK_ENABLED": {
+      "description": "Это поле изменять не нужно",
+      "value": "yes"
+    },
+    "WEBHOOK_PATH": {
+      "description": "Это поле изменять не нужно",
+      "value": "/"
+    },
     "REMOVE_SENT_CONFIRMATION": {
+      "description": "Удалять или нет подтверждения об успешной отправке сообщения",
       "value": "yes",
       "required": false
     }
   }
 }
-
