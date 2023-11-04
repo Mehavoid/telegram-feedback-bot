@@ -71,11 +71,8 @@ async def cmd_list_banned(message: Message, l10n: FluentLocalization):
     result = []
     if len(banned) > 0:
         result.append(l10n.format_value("list-banned-title"))
-        for item in banned:
-            result.append(f"• #id{item}")
+        result.extend(f"• #id{item}" for item in banned)
     if len(shadowbanned) > 0:
-        result.append('\n{}'.format(l10n.format_value("list-shadowbanned-title")))
-        for item in shadowbanned:
-            result.append(f"• #id{item}")
-
+        result.append(f'\n{l10n.format_value("list-shadowbanned-title")}')
+        result.extend(f"• #id{item}" for item in shadowbanned)
     await message.answer("\n".join(result))
